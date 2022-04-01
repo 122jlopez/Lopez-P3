@@ -43,45 +43,50 @@ const vue_app = Vue.createApp({
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
             getMonthText(dateArray){
               // Switch = compare to month # and replace # with month name
-            switch(dateArray[1]){
-              case 1:
-              month="January";
-              break;
-              case 2:
-              month="February";
-              break;
-              case 3:
-              month="March";
-              case 4:
-              month="April";
-              break;
-              case 5:
-              month="May";
-              break;
-              case 6:
-              month="June";
-              break;
-              case 7:
-              month="July";
-              break;
-              case 8:
-              month="August";
-              break;
-              case 9:
-              month="September";
-              break;
-              case 10:
-              month="October";
-              break;
-              case 11:
-              month="November";
-              break;
-              case 12:
-              month="December";
-              break;
+              switch(dateArray[1]){
+                case 1:
+                month="January";
+                break;
+                case 2:
+                month="February";
+                break;
+                case 3:
+                month="March";
+                case 4:
+                month="April";
+                break;
+                case 5:
+                month="May";
+                break;
+                case 6:
+                month="June";
+                break;
+                case 7:
+                month="July";
+                break;
+                case 8:
+                month="August";
+                break;
+                case 9:
+                month="September";
+                break;
+                case 10:
+                month="October";
+                break;
+                case 11:
+                month="November";
+                break;
+                case 12:
+                month="December";
+                break;
             }
             return month + "  " + dateArray[2] + ", " + dateArray[0];
             // return month + "case " + dateArray[1] + ", month" + dateArray[0];
+          },
+          posterClick(index){
+              posters[1];
+
+              return posters.onCLick;
           }
 
     }
